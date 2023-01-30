@@ -1,0 +1,15 @@
+.tiltComponent {
+  height: 400px;
+  width: 700px;
+  background-color: blue;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  font-style: italic;
+  color: white;
+  transform: translateZ(60px);
+  border: 2px solid white;
+}
