@@ -1,7 +1,7 @@
 .tiltComponent {
   height: 400px;
   width: 700px;
-  background-color: blue;
+
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -12,4 +12,15 @@
   color: white;
   transform: translateZ(60px);
   border: 2px solid white;
+}
+
+.tBox {
+  border-radius: 20px;
+  background: url("../images/backgrounds/pattern01.jpg"), blue;
+  background-size: cover;
+  background-blend-mode: screen;
+}
+
+.img {
+  object-fit: cover;
 }

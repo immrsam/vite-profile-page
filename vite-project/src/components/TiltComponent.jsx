@@ -1,5 +1,6 @@
 import "../styles/TiltComponent.css";
 import Tilt from "react-parallax-tilt";
+import bg from "../images/backgrounds/pattern01.jpg";
 
 const TiltComponent = () => {
   return (
